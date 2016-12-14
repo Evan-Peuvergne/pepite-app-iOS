@@ -37,6 +37,7 @@
 		8D18A3B81E016A8800BF6B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D18A3B61E016A8800BF6B91 /* LaunchScreen.storyboard */; };
 		8D18A3C31E016A8800BF6B91 /* Pepite_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3C21E016A8800BF6B91 /* Pepite_iOSTests.swift */; };
 		8D18A3CE1E016A8900BF6B91 /* Pepite_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3CD1E016A8900BF6B91 /* Pepite_iOSUITests.swift */; };
+		8DEB01D61E020704005ACE97 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEB01D51E020704005ACE97 /* Input.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		8D18A3C91E016A8900BF6B91 /* Pepite-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pepite-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D18A3CD1E016A8900BF6B91 /* Pepite_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pepite_iOSUITests.swift; sourceTree = "<group>"; };
 		8D18A3CF1E016A8900BF6B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DEB01D51E020704005ACE97 /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				8D105C2D1E01B12B007F4786 /* Button.swift */,
+				8DEB01D51E020704005ACE97 /* Input.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DEB01D61E020704005ACE97 /* Input.swift in Sources */,
 				8D18A3B01E016A8800BF6B91 /* ViewController.swift in Sources */,
 				8D105C2E1E01B12B007F4786 /* Button.swift in Sources */,
 				8D18A3AE1E016A8800BF6B91 /* AppDelegate.swift in Sources */,
