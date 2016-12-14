@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D105C161E01AE0E007F4786 /* SanFranciscoDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C011E01AE0E007F4786 /* SanFranciscoDisplay-Black.otf */; };
+		8D105C171E01AE0E007F4786 /* SanFranciscoDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C021E01AE0E007F4786 /* SanFranciscoDisplay-Bold.otf */; };
+		8D105C181E01AE0E007F4786 /* SanFranciscoDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C031E01AE0E007F4786 /* SanFranciscoDisplay-Heavy.otf */; };
+		8D105C191E01AE0E007F4786 /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C041E01AE0E007F4786 /* SanFranciscoDisplay-Light.otf */; };
+		8D105C1A1E01AE0E007F4786 /* SanFranciscoDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C051E01AE0E007F4786 /* SanFranciscoDisplay-Medium.otf */; };
+		8D105C1B1E01AE0E007F4786 /* SanFranciscoDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C061E01AE0E007F4786 /* SanFranciscoDisplay-Regular.otf */; };
+		8D105C1C1E01AE0E007F4786 /* SanFranciscoDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C071E01AE0E007F4786 /* SanFranciscoDisplay-Semibold.otf */; };
+		8D105C1D1E01AE0E007F4786 /* SanFranciscoDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C081E01AE0E007F4786 /* SanFranciscoDisplay-Thin.otf */; };
+		8D105C1E1E01AE0E007F4786 /* SanFranciscoDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C091E01AE0E007F4786 /* SanFranciscoDisplay-Ultralight.otf */; };
+		8D105C1F1E01AE0E007F4786 /* SanFranciscoText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C0A1E01AE0E007F4786 /* SanFranciscoText-Bold.otf */; };
+		8D105C201E01AE0E007F4786 /* SanFranciscoText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C0B1E01AE0E007F4786 /* SanFranciscoText-BoldItalic.otf */; };
+		8D105C211E01AE0E007F4786 /* SanFranciscoText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C0C1E01AE0E007F4786 /* SanFranciscoText-Heavy.otf */; };
+		8D105C221E01AE0E007F4786 /* SanFranciscoText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C0D1E01AE0E007F4786 /* SanFranciscoText-HeavyItalic.otf */; };
+		8D105C231E01AE0E007F4786 /* SanFranciscoText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C0E1E01AE0E007F4786 /* SanFranciscoText-Light.otf */; };
+		8D105C241E01AE0E007F4786 /* SanFranciscoText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C0F1E01AE0E007F4786 /* SanFranciscoText-LightItalic.otf */; };
+		8D105C251E01AE0E007F4786 /* SanFranciscoText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C101E01AE0E007F4786 /* SanFranciscoText-Medium.otf */; };
+		8D105C261E01AE0E007F4786 /* SanFranciscoText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C111E01AE0E007F4786 /* SanFranciscoText-MediumItalic.otf */; };
+		8D105C271E01AE0E007F4786 /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C121E01AE0E007F4786 /* SanFranciscoText-Regular.otf */; };
+		8D105C281E01AE0E007F4786 /* SanFranciscoText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C131E01AE0E007F4786 /* SanFranciscoText-RegularItalic.otf */; };
+		8D105C291E01AE0E007F4786 /* SanFranciscoText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C141E01AE0E007F4786 /* SanFranciscoText-Semibold.otf */; };
+		8D105C2A1E01AE0E007F4786 /* SanFranciscoText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D105C151E01AE0E007F4786 /* SanFranciscoText-SemiboldItalic.otf */; };
+		8D105C2E1E01B12B007F4786 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D105C2D1E01B12B007F4786 /* Button.swift */; };
+		8D105C301E01B37D007F4786 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D105C2F1E01B37D007F4786 /* Constants.swift */; };
 		8D18A3AE1E016A8800BF6B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3AD1E016A8800BF6B91 /* AppDelegate.swift */; };
 		8D18A3B01E016A8800BF6B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3AF1E016A8800BF6B91 /* ViewController.swift */; };
 		8D18A3B31E016A8800BF6B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D18A3B11E016A8800BF6B91 /* Main.storyboard */; };
@@ -34,6 +57,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D105C011E01AE0E007F4786 /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
+		8D105C021E01AE0E007F4786 /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
+		8D105C031E01AE0E007F4786 /* SanFranciscoDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		8D105C041E01AE0E007F4786 /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
+		8D105C051E01AE0E007F4786 /* SanFranciscoDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Medium.otf"; sourceTree = "<group>"; };
+		8D105C061E01AE0E007F4786 /* SanFranciscoDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Regular.otf"; sourceTree = "<group>"; };
+		8D105C071E01AE0E007F4786 /* SanFranciscoDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		8D105C081E01AE0E007F4786 /* SanFranciscoDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Thin.otf"; sourceTree = "<group>"; };
+		8D105C091E01AE0E007F4786 /* SanFranciscoDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		8D105C0A1E01AE0E007F4786 /* SanFranciscoText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Bold.otf"; sourceTree = "<group>"; };
+		8D105C0B1E01AE0E007F4786 /* SanFranciscoText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-BoldItalic.otf"; sourceTree = "<group>"; };
+		8D105C0C1E01AE0E007F4786 /* SanFranciscoText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Heavy.otf"; sourceTree = "<group>"; };
+		8D105C0D1E01AE0E007F4786 /* SanFranciscoText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		8D105C0E1E01AE0E007F4786 /* SanFranciscoText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Light.otf"; sourceTree = "<group>"; };
+		8D105C0F1E01AE0E007F4786 /* SanFranciscoText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-LightItalic.otf"; sourceTree = "<group>"; };
+		8D105C101E01AE0E007F4786 /* SanFranciscoText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Medium.otf"; sourceTree = "<group>"; };
+		8D105C111E01AE0E007F4786 /* SanFranciscoText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-MediumItalic.otf"; sourceTree = "<group>"; };
+		8D105C121E01AE0E007F4786 /* SanFranciscoText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Regular.otf"; sourceTree = "<group>"; };
+		8D105C131E01AE0E007F4786 /* SanFranciscoText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-RegularItalic.otf"; sourceTree = "<group>"; };
+		8D105C141E01AE0E007F4786 /* SanFranciscoText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Semibold.otf"; sourceTree = "<group>"; };
+		8D105C151E01AE0E007F4786 /* SanFranciscoText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		8D105C2D1E01B12B007F4786 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		8D105C2F1E01B37D007F4786 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8D18A3AA1E016A8800BF6B91 /* Pepite-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pepite-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D18A3AD1E016A8800BF6B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D18A3AF1E016A8800BF6B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +120,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D105BE41E019C30007F4786 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8D105C2B1E01B0E0007F4786 /* Controls */,
+				8D105C2C1E01B0EA007F4786 /* Components */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		8D105BE81E01A0EC007F4786 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				8D105BE91E01A0F3007F4786 /* Fonts */,
+			);
+			name = Ressources;
+			path = "Pepite-iOS";
+			sourceTree = "<group>";
+		};
+		8D105BE91E01A0F3007F4786 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D105C001E01ADFE007F4786 /* San Francisco */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		8D105C001E01ADFE007F4786 /* San Francisco */ = {
+			isa = PBXGroup;
+			children = (
+				8D105C011E01AE0E007F4786 /* SanFranciscoDisplay-Black.otf */,
+				8D105C021E01AE0E007F4786 /* SanFranciscoDisplay-Bold.otf */,
+				8D105C031E01AE0E007F4786 /* SanFranciscoDisplay-Heavy.otf */,
+				8D105C041E01AE0E007F4786 /* SanFranciscoDisplay-Light.otf */,
+				8D105C051E01AE0E007F4786 /* SanFranciscoDisplay-Medium.otf */,
+				8D105C061E01AE0E007F4786 /* SanFranciscoDisplay-Regular.otf */,
+				8D105C071E01AE0E007F4786 /* SanFranciscoDisplay-Semibold.otf */,
+				8D105C081E01AE0E007F4786 /* SanFranciscoDisplay-Thin.otf */,
+				8D105C091E01AE0E007F4786 /* SanFranciscoDisplay-Ultralight.otf */,
+				8D105C0A1E01AE0E007F4786 /* SanFranciscoText-Bold.otf */,
+				8D105C0B1E01AE0E007F4786 /* SanFranciscoText-BoldItalic.otf */,
+				8D105C0C1E01AE0E007F4786 /* SanFranciscoText-Heavy.otf */,
+				8D105C0D1E01AE0E007F4786 /* SanFranciscoText-HeavyItalic.otf */,
+				8D105C0E1E01AE0E007F4786 /* SanFranciscoText-Light.otf */,
+				8D105C0F1E01AE0E007F4786 /* SanFranciscoText-LightItalic.otf */,
+				8D105C101E01AE0E007F4786 /* SanFranciscoText-Medium.otf */,
+				8D105C111E01AE0E007F4786 /* SanFranciscoText-MediumItalic.otf */,
+				8D105C121E01AE0E007F4786 /* SanFranciscoText-Regular.otf */,
+				8D105C131E01AE0E007F4786 /* SanFranciscoText-RegularItalic.otf */,
+				8D105C141E01AE0E007F4786 /* SanFranciscoText-Semibold.otf */,
+				8D105C151E01AE0E007F4786 /* SanFranciscoText-SemiboldItalic.otf */,
+			);
+			name = "San Francisco";
+			sourceTree = "<group>";
+		};
+		8D105C2B1E01B0E0007F4786 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				8D105C2D1E01B12B007F4786 /* Button.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		8D105C2C1E01B0EA007F4786 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		8D18A3A11E016A8800BF6B91 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +196,7 @@
 				8D18A3C11E016A8800BF6B91 /* Pepite-iOSTests */,
 				8D18A3CC1E016A8900BF6B91 /* Pepite-iOSUITests */,
 				8D18A3AB1E016A8800BF6B91 /* Products */,
+				8D105BE81E01A0EC007F4786 /* Ressources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +213,14 @@
 		8D18A3AC1E016A8800BF6B91 /* Pepite-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8D105BE41E019C30007F4786 /* Modules */,
 				8D18A3AD1E016A8800BF6B91 /* AppDelegate.swift */,
 				8D18A3AF1E016A8800BF6B91 /* ViewController.swift */,
 				8D18A3B11E016A8800BF6B91 /* Main.storyboard */,
 				8D18A3B41E016A8800BF6B91 /* Assets.xcassets */,
 				8D18A3B61E016A8800BF6B91 /* LaunchScreen.storyboard */,
 				8D18A3B91E016A8800BF6B91 /* Info.plist */,
+				8D105C2F1E01B37D007F4786 /* Constants.swift */,
 			);
 			path = "Pepite-iOS";
 			sourceTree = "<group>";
@@ -193,6 +311,7 @@
 				TargetAttributes = {
 					8D18A3A91E016A8800BF6B91 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 99D895TFL2;
 						ProvisioningStyle = Automatic;
 					};
 					8D18A3BD1E016A8800BF6B91 = {
@@ -232,9 +351,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D105C211E01AE0E007F4786 /* SanFranciscoText-Heavy.otf in Resources */,
+				8D105C231E01AE0E007F4786 /* SanFranciscoText-Light.otf in Resources */,
+				8D105C1C1E01AE0E007F4786 /* SanFranciscoDisplay-Semibold.otf in Resources */,
 				8D18A3B81E016A8800BF6B91 /* LaunchScreen.storyboard in Resources */,
 				8D18A3B51E016A8800BF6B91 /* Assets.xcassets in Resources */,
+				8D105C281E01AE0E007F4786 /* SanFranciscoText-RegularItalic.otf in Resources */,
+				8D105C161E01AE0E007F4786 /* SanFranciscoDisplay-Black.otf in Resources */,
+				8D105C1A1E01AE0E007F4786 /* SanFranciscoDisplay-Medium.otf in Resources */,
+				8D105C1F1E01AE0E007F4786 /* SanFranciscoText-Bold.otf in Resources */,
+				8D105C1D1E01AE0E007F4786 /* SanFranciscoDisplay-Thin.otf in Resources */,
+				8D105C261E01AE0E007F4786 /* SanFranciscoText-MediumItalic.otf in Resources */,
+				8D105C201E01AE0E007F4786 /* SanFranciscoText-BoldItalic.otf in Resources */,
+				8D105C271E01AE0E007F4786 /* SanFranciscoText-Regular.otf in Resources */,
+				8D105C241E01AE0E007F4786 /* SanFranciscoText-LightItalic.otf in Resources */,
 				8D18A3B31E016A8800BF6B91 /* Main.storyboard in Resources */,
+				8D105C181E01AE0E007F4786 /* SanFranciscoDisplay-Heavy.otf in Resources */,
+				8D105C1B1E01AE0E007F4786 /* SanFranciscoDisplay-Regular.otf in Resources */,
+				8D105C251E01AE0E007F4786 /* SanFranciscoText-Medium.otf in Resources */,
+				8D105C221E01AE0E007F4786 /* SanFranciscoText-HeavyItalic.otf in Resources */,
+				8D105C2A1E01AE0E007F4786 /* SanFranciscoText-SemiboldItalic.otf in Resources */,
+				8D105C171E01AE0E007F4786 /* SanFranciscoDisplay-Bold.otf in Resources */,
+				8D105C291E01AE0E007F4786 /* SanFranciscoText-Semibold.otf in Resources */,
+				8D105C1E1E01AE0E007F4786 /* SanFranciscoDisplay-Ultralight.otf in Resources */,
+				8D105C191E01AE0E007F4786 /* SanFranciscoDisplay-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +400,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D18A3B01E016A8800BF6B91 /* ViewController.swift in Sources */,
+				8D105C2E1E01B12B007F4786 /* Button.swift in Sources */,
 				8D18A3AE1E016A8800BF6B91 /* AppDelegate.swift in Sources */,
+				8D105C301E01B37D007F4786 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99D895TFL2;
 				INFOPLIST_FILE = "Pepite-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evanpeuvergne.Pepite-iOS";
@@ -422,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99D895TFL2;
 				INFOPLIST_FILE = "Pepite-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evanpeuvergne.Pepite-iOS";
@@ -503,6 +647,7 @@
 				8D18A3D41E016A8900BF6B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D18A3D51E016A8900BF6B91 /* Build configuration list for PBXNativeTarget "Pepite-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +656,7 @@
 				8D18A3D71E016A8900BF6B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D18A3D81E016A8900BF6B91 /* Build configuration list for PBXNativeTarget "Pepite-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +665,7 @@
 				8D18A3DA1E016A8900BF6B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
