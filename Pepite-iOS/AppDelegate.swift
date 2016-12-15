@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let config = UAConfig.default()
         UAirship.takeOff(config)
         
+        UAirship.push().notificationOptions = [.alert, .badge, .sound]
+        
         return true
     }
 

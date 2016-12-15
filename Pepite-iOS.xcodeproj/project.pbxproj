@@ -46,6 +46,7 @@
 		8DD276D31E023FF2008B88B1 /* AirshipKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DD276AA1E023EA0008B88B1 /* AirshipKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8DD276D41E024010008B88B1 /* AirshipAppExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD276CC1E023F6E008B88B1 /* AirshipAppExtensions.framework */; };
 		8DD276D71E024171008B88B1 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DD276D61E024171008B88B1 /* AirshipConfig.plist */; };
+		8DFC66371E02BE41009D0759 /* ActivateNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC66361E02BE41009D0759 /* ActivateNotificationsViewController.swift */; };
 		CF7C8077D64F868055552F78 /* Pods_Pepite_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -213,6 +214,7 @@
 		8DD276C61E023F6E008B88B1 /* AirshipAppExtensions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirshipAppExtensions.xcodeproj; path = "../../../../../Downloads/libUAirship-8.1.4/AirshipAppExtensions/AirshipAppExtensions.xcodeproj"; sourceTree = "<group>"; };
 		8DD276D51E024082008B88B1 /* Pepite-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pepite-iOS.entitlements"; sourceTree = "<group>"; };
 		8DD276D61E024171008B88B1 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = "<group>"; };
+		8DFC66361E02BE41009D0759 /* ActivateNotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateNotificationsViewController.swift; sourceTree = "<group>"; };
 		A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepite_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5984E8C4E0F1AC1181D21B1 /* Pods-Pepite-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepite-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -353,6 +355,7 @@
 		8D18A3AC1E016A8800BF6B91 /* Pepite-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8DFC66341E02BE2B009D0759 /* Controllers */,
 				8DD276D51E024082008B88B1 /* Pepite-iOS.entitlements */,
 				8D105BE41E019C30007F4786 /* Modules */,
 				8D18A3AD1E016A8800BF6B91 /* AppDelegate.swift */,
@@ -411,6 +414,22 @@
 				8DD276CE1E023F6E008B88B1 /* AirshipAppExtensionsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8DFC66341E02BE2B009D0759 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DFC66351E02BE31009D0759 /* Authentication */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8DFC66351E02BE31009D0759 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8DFC66361E02BE41009D0759 /* ActivateNotificationsViewController.swift */,
+			);
+			name = Authentication;
 			sourceTree = "<group>";
 		};
 		A492C375213C7429A4DE1840 /* Pods */ = {
@@ -736,6 +755,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFC66371E02BE41009D0759 /* ActivateNotificationsViewController.swift in Sources */,
 				8DBDC4DF1E0246620013A8FE /* Input.swift in Sources */,
 				8D18A3B01E016A8800BF6B91 /* ViewController.swift in Sources */,
 				8D105C2E1E01B12B007F4786 /* Button.swift in Sources */,
@@ -858,7 +878,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -901,7 +921,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -918,8 +938,9 @@
 				CODE_SIGN_ENTITLEMENTS = "Pepite-iOS/Pepite-iOS.entitlements";
 				DEVELOPMENT_TEAM = 99D895TFL2;
 				INFOPLIST_FILE = "Pepite-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evanpeuvergne.Pepite-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hetic.pepite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -934,8 +955,9 @@
 				CODE_SIGN_ENTITLEMENTS = "Pepite-iOS/Pepite-iOS.entitlements";
 				DEVELOPMENT_TEAM = 99D895TFL2;
 				INFOPLIST_FILE = "Pepite-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evanpeuvergne.Pepite-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hetic.pepite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1001,7 +1023,7 @@
 				DEVELOPMENT_TEAM = 99D895TFL2;
 				INFOPLIST_FILE = NotificationsExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evanpeuvergne.Pepite-iOS.NotificationsExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hetic.pepite.NotificationsExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1014,7 +1036,7 @@
 				DEVELOPMENT_TEAM = 99D895TFL2;
 				INFOPLIST_FILE = NotificationsExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evanpeuvergne.Pepite-iOS.NotificationsExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hetic.pepite.NotificationsExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;

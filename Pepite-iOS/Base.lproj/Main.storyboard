@@ -435,7 +435,7 @@ Pépite</string>
         <!--ActivateNotificationsController-->
         <scene sceneID="1Iu-4E-GL8">
             <objects>
-                <viewController title="ActivateNotificationsController" id="1DZ-Yy-2dV" sceneMemberID="viewController">
+                <viewController title="ActivateNotificationsController" id="1DZ-Yy-2dV" customClass="ActivateNotificationsViewController" customModule="Pepite_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="syh-mt-4Rc"/>
                         <viewControllerLayoutGuide type="bottom" id="Ku9-L3-51H"/>
@@ -488,6 +488,9 @@ Pépite</string>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="16"/>
                                         <state key="normal" title="Activer"/>
+                                        <connections>
+                                            <action selector="activateNotifications:" destination="1DZ-Yy-2dV" eventType="touchUpInside" id="5x1-19-G1B"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
