@@ -10,7 +10,7 @@ import UIKit
 
 
 class Input: UITextField {
-
+    
     
     /** Design **/
     
@@ -44,5 +44,5 @@ class Input: UITextField {
         // Design
         self.design()
     }
-
+    
 }

@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import AirshipKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // self.view.backgroundColor = Colors.second
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        NSLog("coucou")
+        // let channelID = UAirship.push().channelID
+        // print("slt : ")
+        // print("My Application Channel ID: \(channelID)")
     }
 
     override func didReceiveMemoryWarning() {
