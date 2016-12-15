@@ -40,6 +40,8 @@
 		8D1E3FD21E02DDD1002C65A0 /* InputSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E3FD11E02DDD1002C65A0 /* InputSearch.swift */; };
 		8D1E3FD41E02E55A002C65A0 /* ChooseSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E3FD31E02E55A002C65A0 /* ChooseSportViewController.swift */; };
 		8D1E3FDB1E02EDE3002C65A0 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E3FDA1E02EDE3002C65A0 /* SportTableViewCell.swift */; };
+		8D24E96B1E02FC15007FFEAF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D24E96A1E02FC15007FFEAF /* Alamofire.framework */; };
+		8D24E96F1E02FF5F007FFEAF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E96E1E02FF5F007FFEAF /* Service.swift */; };
 		8DBDC4DF1E0246620013A8FE /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBDC4DE1E0246620013A8FE /* Input.swift */; };
 		8DD276B11E023ED5008B88B1 /* AirshipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD276AA1E023EA0008B88B1 /* AirshipKit.framework */; };
 		8DD276B21E023ED5008B88B1 /* AirshipKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD276AA1E023EA0008B88B1 /* AirshipKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -50,7 +52,6 @@
 		8DD276D41E024010008B88B1 /* AirshipAppExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD276CC1E023F6E008B88B1 /* AirshipAppExtensions.framework */; };
 		8DD276D71E024171008B88B1 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DD276D61E024171008B88B1 /* AirshipConfig.plist */; };
 		8DFC66371E02BE41009D0759 /* ActivateNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC66361E02BE41009D0759 /* ActivateNotificationsViewController.swift */; };
-		CF7C8077D64F868055552F78 /* Pods_Pepite_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +213,8 @@
 		8D1E3FD11E02DDD1002C65A0 /* InputSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSearch.swift; sourceTree = "<group>"; };
 		8D1E3FD31E02E55A002C65A0 /* ChooseSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSportViewController.swift; sourceTree = "<group>"; };
 		8D1E3FDA1E02EDE3002C65A0 /* SportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		8D24E96A1E02FC15007FFEAF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		8D24E96E1E02FF5F007FFEAF /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		8DBDC4DE1E0246620013A8FE /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 		8DD276A21E023E9F008B88B1 /* AirshipKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirshipKit.xcodeproj; path = AirshipKit/AirshipKit.xcodeproj; sourceTree = "<group>"; };
 		8DD276BA1E023F25008B88B1 /* NotificationsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,8 +233,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D24E96B1E02FC15007FFEAF /* Alamofire.framework in Frameworks */,
 				8DD276B11E023ED5008B88B1 /* AirshipKit.framework in Frameworks */,
-				CF7C8077D64F868055552F78 /* Pods_Pepite_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,9 +366,10 @@
 		8D18A3AC1E016A8800BF6B91 /* Pepite-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8D24E96D1E02FEE4007FFEAF /* Services */,
+				8D105BE41E019C30007F4786 /* Modules */,
 				8DFC66341E02BE2B009D0759 /* Controllers */,
 				8DD276D51E024082008B88B1 /* Pepite-iOS.entitlements */,
-				8D105BE41E019C30007F4786 /* Modules */,
 				8D18A3AD1E016A8800BF6B91 /* AppDelegate.swift */,
 				8D18A3AF1E016A8800BF6B91 /* ViewController.swift */,
 				8D18A3B11E016A8800BF6B91 /* Main.storyboard */,
@@ -393,6 +397,14 @@
 				8D18A3CF1E016A8900BF6B91 /* Info.plist */,
 			);
 			path = "Pepite-iOSUITests";
+			sourceTree = "<group>";
+		};
+		8D24E96D1E02FEE4007FFEAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D24E96E1E02FF5F007FFEAF /* Service.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		8DD276A31E023E9F008B88B1 /* Products */ = {
@@ -453,6 +465,7 @@
 		BE34D7EFCC75CAAF4B88B74A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D24E96A1E02FC15007FFEAF /* Alamofire.framework */,
 				A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */,
 				4A342114ABA6A908D48169AC /* Pods_Pepite_iOSTests.framework */,
 				1091AFD75B39D164CCF61967 /* Pods_Pepite_iOSUITests.framework */,
@@ -467,15 +480,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D18A3D21E016A8900BF6B91 /* Build configuration list for PBXNativeTarget "Pepite-iOS" */;
 			buildPhases = (
-				29744D7DC7C1148CC95F79C0 /* [CP] Check Pods Manifest.lock */,
 				8D18A3A61E016A8800BF6B91 /* Sources */,
 				8D18A3A71E016A8800BF6B91 /* Frameworks */,
 				8D18A3A81E016A8800BF6B91 /* Resources */,
-				3B67F568192D7569C068FE60 /* [CP] Embed Pods Frameworks */,
-				9DE36DAD6B0A58BE28EEC725 /* [CP] Copy Pods Resources */,
 				8DD276B51E023ED6008B88B1 /* Embed Frameworks */,
 				8DD276C51E023F25008B88B1 /* Embed App Extensions */,
 				8DD276D11E023FCA008B88B1 /* CopyFiles */,
+				8D24E96C1E02FC2A007FFEAF /* Copy carthage frameworks */,
 			);
 			buildRules = (
 			);
@@ -712,50 +723,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29744D7DC7C1148CC95F79C0 /* [CP] Check Pods Manifest.lock */ = {
+		8D24E96C1E02FC2A007FFEAF /* Copy carthage frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Copy carthage frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3B67F568192D7569C068FE60 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DE36DAD6B0A58BE28EEC725 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -771,6 +752,7 @@
 				8DBDC4DF1E0246620013A8FE /* Input.swift in Sources */,
 				8D18A3B01E016A8800BF6B91 /* ViewController.swift in Sources */,
 				8D105C2E1E01B12B007F4786 /* Button.swift in Sources */,
+				8D24E96F1E02FF5F007FFEAF /* Service.swift in Sources */,
 				8D18A3AE1E016A8800BF6B91 /* AppDelegate.swift in Sources */,
 				8D105C301E01B37D007F4786 /* Constants.swift in Sources */,
 			);
@@ -949,6 +931,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pepite-iOS/Pepite-iOS.entitlements";
 				DEVELOPMENT_TEAM = 99D895TFL2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Pepite-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -966,6 +952,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pepite-iOS/Pepite-iOS.entitlements";
 				DEVELOPMENT_TEAM = 99D895TFL2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Pepite-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
