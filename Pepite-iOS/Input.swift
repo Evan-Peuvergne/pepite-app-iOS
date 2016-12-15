@@ -8,14 +8,41 @@
 
 import UIKit
 
+
 class Input: UITextField {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    /** Design **/
+    
+    func design ()
+    {
+        // Text
+        self.textColor = Colors.white
+        self.attributedPlaceholder = NSAttributedString(string: self.attributedPlaceholder!.string, attributes: [NSForegroundColorAttributeName: Colors.white])
+        
+        // Border
+        let border = CALayer()
+        let width = CGFloat(2.0)
+        border.borderColor = UIColor.init(white: 1, alpha: 0.7).cgColor
+        border.frame = CGRect(x: 0, y: self.frame.size.height-width, width: self.frame.size.width, height: self.frame.size.height)
+        border.borderWidth = width
+        self.layer.addSublayer(border)
+        self.layer.masksToBounds = true
+        
+        // Background
+        self.backgroundColor = UIColor.init(white: 1.0, alpha: 0.0)
     }
-    */
+    
+    
+    /** Init [Decoder] **/
+    
+    required init?(coder aDecoder: NSCoder)
+    {
+        // Parent
+        super.init(coder: aDecoder)
+        
+        // Design
+        self.design()
+    }
 
 }

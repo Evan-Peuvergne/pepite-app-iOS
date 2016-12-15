@@ -38,6 +38,7 @@
 		8D18A3C31E016A8800BF6B91 /* Pepite_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3C21E016A8800BF6B91 /* Pepite_iOSTests.swift */; };
 		8D18A3CE1E016A8900BF6B91 /* Pepite_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3CD1E016A8900BF6B91 /* Pepite_iOSUITests.swift */; };
 		8DEB01D61E020704005ACE97 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEB01D51E020704005ACE97 /* Input.swift */; };
+		CF7C8077D64F868055552F78 /* Pods_Pepite_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1091AFD75B39D164CCF61967 /* Pods_Pepite_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepite_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DB5E3F0312688E8015254D /* Pods-Pepite-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepite-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4A342114ABA6A908D48169AC /* Pods_Pepite_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepite_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D105C011E01AE0E007F4786 /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
 		8D105C021E01AE0E007F4786 /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
 		8D105C031E01AE0E007F4786 /* SanFranciscoDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Heavy.otf"; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 		8D18A3CD1E016A8900BF6B91 /* Pepite_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pepite_iOSUITests.swift; sourceTree = "<group>"; };
 		8D18A3CF1E016A8900BF6B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DEB01D51E020704005ACE97 /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepite_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5984E8C4E0F1AC1181D21B1 /* Pods-Pepite-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepite-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7C8077D64F868055552F78 /* Pods_Pepite_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +207,8 @@
 				8D18A3CC1E016A8900BF6B91 /* Pepite-iOSUITests */,
 				8D18A3AB1E016A8800BF6B91 /* Products */,
 				8D105BE81E01A0EC007F4786 /* Ressources */,
+				A492C375213C7429A4DE1840 /* Pods */,
+				BE34D7EFCC75CAAF4B88B74A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +255,25 @@
 			path = "Pepite-iOSUITests";
 			sourceTree = "<group>";
 		};
+		A492C375213C7429A4DE1840 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13DB5E3F0312688E8015254D /* Pods-Pepite-iOS.debug.xcconfig */,
+				A5984E8C4E0F1AC1181D21B1 /* Pods-Pepite-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE34D7EFCC75CAAF4B88B74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4874E7AA26A6EB1294E9A /* Pods_Pepite_iOS.framework */,
+				4A342114ABA6A908D48169AC /* Pods_Pepite_iOSTests.framework */,
+				1091AFD75B39D164CCF61967 /* Pods_Pepite_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D18A3D21E016A8900BF6B91 /* Build configuration list for PBXNativeTarget "Pepite-iOS" */;
 			buildPhases = (
+				29744D7DC7C1148CC95F79C0 /* [CP] Check Pods Manifest.lock */,
 				8D18A3A61E016A8800BF6B91 /* Sources */,
 				8D18A3A71E016A8800BF6B91 /* Frameworks */,
 				8D18A3A81E016A8800BF6B91 /* Resources */,
+				3B67F568192D7569C068FE60 /* [CP] Embed Pods Frameworks */,
+				9DE36DAD6B0A58BE28EEC725 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -396,6 +427,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29744D7DC7C1148CC95F79C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B67F568192D7569C068FE60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE36DAD6B0A58BE28EEC725 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pepite-iOS/Pods-Pepite-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D18A3A61E016A8800BF6B91 /* Sources */ = {
@@ -554,6 +633,7 @@
 		};
 		8D18A3D31E016A8900BF6B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DB5E3F0312688E8015254D /* Pods-Pepite-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99D895TFL2;
@@ -567,6 +647,7 @@
 		};
 		8D18A3D41E016A8900BF6B91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5984E8C4E0F1AC1181D21B1 /* Pods-Pepite-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99D895TFL2;
