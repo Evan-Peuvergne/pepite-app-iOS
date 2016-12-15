@@ -13,7 +13,7 @@ class ActivateNotificationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
@@ -25,5 +25,6 @@ class ActivateNotificationsViewController: UIViewController {
     @IBAction func activateNotifications(_ sender: Any)
     {
         UAirship.push().userPushNotificationsEnabled = true
+        self.performSegue(withIdentifier: "transitionActivateNotificationsToChooseSports", sender: self)
     }
 }

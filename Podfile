@@ -1,6 +1,6 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+# source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Pepite-iOS' do
-  # pod 'Alamofire', '~> 3.0.0-beta.3'
+  use_frameworks!
+  pod 'Alamofire'
 end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01w-in-hvI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -123,7 +123,7 @@ Pépite</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.45490196078431372" green="0.78823529411764703" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.396078431372549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3lq-4k-ka4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EyU-Cj-8WK"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R6r-yK-WRU" secondAttribute="bottom" constant="51" id="PY1-bb-r2s"/>
@@ -236,7 +236,7 @@ Pépite</string>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.45490196078431372" green="0.78823529411764703" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.396078431372549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="x7N-mL-j1g" firstAttribute="centerY" secondItem="5td-BR-svI" secondAttribute="centerY" id="MPO-nu-w9m"/>
                             <constraint firstItem="x7N-mL-j1g" firstAttribute="centerX" secondItem="5td-BR-svI" secondAttribute="centerX" id="ZQ5-0i-KnK"/>
@@ -308,7 +308,7 @@ Pépite</string>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.4549019608" green="0.78823529410000004" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.396078431372549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGG-Xf-8ZS" sceneMemberID="firstResponder"/>
@@ -418,7 +418,7 @@ Pépite</string>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.4549019608" green="0.78823529410000004" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.396078431372549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dts-KL-ydj" firstAttribute="centerX" secondItem="hyy-du-nWT" secondAttribute="centerX" id="Fyw-kO-NHf"/>
                             <constraint firstItem="vUx-qP-XkG" firstAttribute="leading" secondItem="hyy-du-nWT" secondAttribute="leadingMargin" constant="54" id="JDu-SQ-Vsb"/>
@@ -478,6 +478,9 @@ Pépite</string>
                                             <userDefinedRuntimeAttribute type="string" keyPath="style" value="white"/>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="filled" value="NO"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Ddt-cx-nr0" kind="showDetail" id="IVn-jj-oqi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Sc-bi-CVj" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
                                         <rect key="frame" x="135" y="242" width="110" height="40"/>
@@ -509,20 +512,221 @@ Pépite</string>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.4549019608" green="0.78823529410000004" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.396078431372549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eGI-lS-PvW" firstAttribute="centerY" secondItem="7S6-P6-aPc" secondAttribute="centerY" constant="-3" id="2V0-I8-GEY"/>
                             <constraint firstItem="eGI-lS-PvW" firstAttribute="centerX" secondItem="7S6-P6-aPc" secondAttribute="centerX" id="mT8-F5-gRY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="Ddt-cx-nr0" kind="showDetail" identifier="transitionActivateNotificationsToChooseSports" id="2KW-Kz-qEu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0d-FB-vLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1984.8" y="-306.29685157421289"/>
         </scene>
+        <!--ActivateNotificationsController-->
+        <scene sceneID="mHe-76-pPY">
+            <objects>
+                <viewController title="ActivateNotificationsController" id="Ddt-cx-nr0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XAw-U5-w8a"/>
+                        <viewControllerLayoutGuide type="bottom" id="2dd-Qg-kSl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xZ4-dI-9Ja">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5G-Ho-UTf">
+                                <rect key="frame" x="60" y="170" width="255" height="272"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avant de commencer." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvT-kT-nbi">
+                                        <rect key="frame" x="10" y="23" width="235" height="89"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="89" id="ELg-AP-hve"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="30"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Sélectionnez les sports qui vous intéressent le plus." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cWQ-fG-tt3">
+                                        <rect key="frame" x="7" y="126" width="241" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="105" id="LBD-ch-40e"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Regular" family="San Francisco Display" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6v1-DZ-DGc" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="212" width="110" height="40"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="93u-e7-O9f"/>
+                                            <constraint firstAttribute="width" constant="110" id="zmv-eY-AOA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="16"/>
+                                        <state key="normal" title="Ignorer"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="white"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="filled" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBl-nJ-b9M" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="135" y="212" width="110" height="40"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="LEM-BK-r3B"/>
+                                            <constraint firstAttribute="width" constant="110" id="yLV-iD-D5t"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="16"/>
+                                        <state key="normal" title="Choisir"/>
+                                        <connections>
+                                            <segue destination="01w-in-hvI" kind="showDetail" id="DHZ-zp-mx7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="QBl-nJ-b9M" secondAttribute="bottom" constant="20" id="24D-lL-ry8"/>
+                                    <constraint firstItem="cWQ-fG-tt3" firstAttribute="leading" secondItem="M5G-Ho-UTf" secondAttribute="leading" constant="7" id="6zS-Q8-Ev7"/>
+                                    <constraint firstAttribute="bottom" secondItem="6v1-DZ-DGc" secondAttribute="bottom" constant="20" id="D3N-5n-T62"/>
+                                    <constraint firstAttribute="height" constant="272" id="Kp2-bz-wyB"/>
+                                    <constraint firstItem="bvT-kT-nbi" firstAttribute="top" secondItem="M5G-Ho-UTf" secondAttribute="top" constant="23" id="LUi-NO-oDK"/>
+                                    <constraint firstAttribute="width" constant="255" id="MTx-Q3-fi5"/>
+                                    <constraint firstAttribute="trailing" secondItem="QBl-nJ-b9M" secondAttribute="trailing" constant="10" id="SNr-HN-AXn"/>
+                                    <constraint firstAttribute="trailing" secondItem="bvT-kT-nbi" secondAttribute="trailing" constant="10" id="YFB-1N-oxv"/>
+                                    <constraint firstItem="6v1-DZ-DGc" firstAttribute="leading" secondItem="M5G-Ho-UTf" secondAttribute="leading" constant="10" id="jQB-Ls-tkU"/>
+                                    <constraint firstItem="bvT-kT-nbi" firstAttribute="leading" secondItem="M5G-Ho-UTf" secondAttribute="leading" constant="10" id="ozy-tM-RC2"/>
+                                    <constraint firstItem="cWQ-fG-tt3" firstAttribute="top" secondItem="bvT-kT-nbi" secondAttribute="bottom" constant="14" id="tY4-2Q-Jyx"/>
+                                    <constraint firstAttribute="trailing" secondItem="cWQ-fG-tt3" secondAttribute="trailing" constant="7" id="x5U-uY-jqq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.396078431372549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M5G-Ho-UTf" firstAttribute="centerY" secondItem="xZ4-dI-9Ja" secondAttribute="centerY" constant="-27.5" id="iI1-fW-e3y"/>
+                            <constraint firstItem="M5G-Ho-UTf" firstAttribute="centerX" secondItem="xZ4-dI-9Ja" secondAttribute="centerX" id="qQd-o9-ehP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8m-cs-woi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2808.8000000000002" y="-306.29685157421289"/>
+        </scene>
+        <!--ActivateNotificationsController-->
+        <scene sceneID="RMJ-at-tax">
+            <objects>
+                <viewController title="ActivateNotificationsController" id="01w-in-hvI" customClass="ChooseSportViewController" customModule="Pepite_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="szz-M6-ilS"/>
+                        <viewControllerLayoutGuide type="bottom" id="EHE-OI-1aE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Hb-S7-Rmq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WU6-id-ZMR">
+                                <rect key="frame" x="0.0" y="97" width="375" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SportCell" rowHeight="67" id="E2o-Eo-GRt" customClass="SportTableViewCell" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E2o-Eo-GRt" id="a4P-w3-8rr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tennis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucq-WR-zPg">
+                                                    <rect key="frame" x="34" y="25" width="50" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="title" destination="ucq-WR-zPg" id="oNB-JF-wEd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="71" id="eVY-d2-5Uj">
+                                        <rect key="frame" x="0.0" y="95" width="375" height="71"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eVY-d2-5Uj" id="bsl-ss-jF3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tennis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnv-L3-ifg">
+                                                    <rect key="frame" x="34" y="25" width="50" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="71" id="N5Q-68-45F">
+                                        <rect key="frame" x="0.0" y="166" width="375" height="71"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N5Q-68-45F" id="Xnj-oC-dcS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tennis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCn-zH-qwq">
+                                                    <rect key="frame" x="34" y="25" width="50" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Rechercher un sport ..." textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sLE-CI-igA" customClass="InputSearch" customModule="Pepite_iOS" customModuleProvider="target">
+                                <rect key="frame" x="68" y="39" width="239" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Regular" family="San Francisco Display" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="searchUpdate:" destination="01w-in-hvI" eventType="valueChanged" id="fzd-9Q-FUS"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.39607843139999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="hfH-p9-kfh" id="xpd-EP-aKZ"/>
+                        <outlet property="searchInput" destination="sLE-CI-igA" id="KAa-oT-0NT"/>
+                        <outlet property="tableView" destination="WU6-id-ZMR" id="dVX-Pi-g0W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B9I-xr-nWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="hfH-p9-kfh">
+                    <connections>
+                        <outlet property="delegate" destination="01w-in-hvI" id="V0k-Vm-d7d"/>
+                        <outlet property="searchContentsController" destination="01w-in-hvI" id="SoM-mP-3xd"/>
+                        <outlet property="searchResultsDataSource" destination="01w-in-hvI" id="vmP-Lt-qek"/>
+                        <outlet property="searchResultsDelegate" destination="01w-in-hvI" id="E1b-HR-psH"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="3197.5999999999999" y="-1030.4347826086957"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Est-aK-oQR"/>
+        <segue reference="2KW-Kz-qEu"/>
+        <segue reference="O0F-qu-CpH"/>
         <segue reference="9KC-0G-bSf"/>
     </inferredMetricsTieBreakers>
 </document>

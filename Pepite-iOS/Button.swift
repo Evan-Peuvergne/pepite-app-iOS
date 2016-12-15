@@ -28,7 +28,6 @@ class Button: UIButton{
     func setStyle (style: String = "main")
     {
         // Detect
-        NSLog("style")
         let colors: [String: UIColor] = [ "main": Colors.main, "second": Colors.second, "white": UIColor.white ]
         var color = Colors.main
         color = colors[style]!

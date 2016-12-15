@@ -37,6 +37,9 @@
 		8D18A3B81E016A8800BF6B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D18A3B61E016A8800BF6B91 /* LaunchScreen.storyboard */; };
 		8D18A3C31E016A8800BF6B91 /* Pepite_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3C21E016A8800BF6B91 /* Pepite_iOSTests.swift */; };
 		8D18A3CE1E016A8900BF6B91 /* Pepite_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18A3CD1E016A8900BF6B91 /* Pepite_iOSUITests.swift */; };
+		8D1E3FD21E02DDD1002C65A0 /* InputSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E3FD11E02DDD1002C65A0 /* InputSearch.swift */; };
+		8D1E3FD41E02E55A002C65A0 /* ChooseSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E3FD31E02E55A002C65A0 /* ChooseSportViewController.swift */; };
+		8D1E3FDB1E02EDE3002C65A0 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E3FDA1E02EDE3002C65A0 /* SportTableViewCell.swift */; };
 		8DBDC4DF1E0246620013A8FE /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBDC4DE1E0246620013A8FE /* Input.swift */; };
 		8DD276B11E023ED5008B88B1 /* AirshipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD276AA1E023EA0008B88B1 /* AirshipKit.framework */; };
 		8DD276B21E023ED5008B88B1 /* AirshipKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD276AA1E023EA0008B88B1 /* AirshipKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -206,6 +209,9 @@
 		8D18A3C91E016A8900BF6B91 /* Pepite-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pepite-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D18A3CD1E016A8900BF6B91 /* Pepite_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pepite_iOSUITests.swift; sourceTree = "<group>"; };
 		8D18A3CF1E016A8900BF6B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1E3FD11E02DDD1002C65A0 /* InputSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSearch.swift; sourceTree = "<group>"; };
+		8D1E3FD31E02E55A002C65A0 /* ChooseSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSportViewController.swift; sourceTree = "<group>"; };
+		8D1E3FDA1E02EDE3002C65A0 /* SportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
 		8DBDC4DE1E0246620013A8FE /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 		8DD276A21E023E9F008B88B1 /* AirshipKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirshipKit.xcodeproj; path = AirshipKit/AirshipKit.xcodeproj; sourceTree = "<group>"; };
 		8DD276BA1E023F25008B88B1 /* NotificationsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -313,6 +319,7 @@
 			children = (
 				8D105C2D1E01B12B007F4786 /* Button.swift */,
 				8DBDC4DE1E0246620013A8FE /* Input.swift */,
+				8D1E3FD11E02DDD1002C65A0 /* InputSearch.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -320,6 +327,7 @@
 		8D105C2C1E01B0EA007F4786 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8D1E3FDA1E02EDE3002C65A0 /* SportTableViewCell.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -428,6 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				8DFC66361E02BE41009D0759 /* ActivateNotificationsViewController.swift */,
+				8D1E3FD31E02E55A002C65A0 /* ChooseSportViewController.swift */,
 			);
 			name = Authentication;
 			sourceTree = "<group>";
@@ -755,7 +764,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1E3FD21E02DDD1002C65A0 /* InputSearch.swift in Sources */,
 				8DFC66371E02BE41009D0759 /* ActivateNotificationsViewController.swift in Sources */,
+				8D1E3FD41E02E55A002C65A0 /* ChooseSportViewController.swift in Sources */,
+				8D1E3FDB1E02EDE3002C65A0 /* SportTableViewCell.swift in Sources */,
 				8DBDC4DF1E0246620013A8FE /* Input.swift in Sources */,
 				8D18A3B01E016A8800BF6B91 /* ViewController.swift in Sources */,
 				8D105C2E1E01B12B007F4786 /* Button.swift in Sources */,
