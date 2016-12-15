@@ -21,10 +21,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--HomeController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pepite_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HomeController" id="BYZ-38-t0r" customClass="ViewController" customModule="Pepite_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -136,10 +136,10 @@ Pépite</string>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--SigninController-->
         <scene sceneID="Yhg-eS-HEu">
             <objects>
-                <viewController id="oRa-wO-Trt" sceneMemberID="viewController">
+                <viewController title="SigninController" id="oRa-wO-Trt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qdo-dz-hGr"/>
                         <viewControllerLayoutGuide type="bottom" id="7mW-1T-oCW"/>
@@ -315,10 +315,10 @@ Pépite</string>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--SignupController-->
         <scene sceneID="9Fx-0e-uje">
             <objects>
-                <viewController id="bZk-sb-EMo" sceneMemberID="viewController">
+                <viewController title="SignupController" id="bZk-sb-EMo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mna-wZ-Xc7"/>
                         <viewControllerLayoutGuide type="bottom" id="dUm-tm-6pw"/>

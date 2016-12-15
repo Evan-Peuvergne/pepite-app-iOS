@@ -141,6 +141,7 @@
 		8D105BE81E01A0EC007F4786 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				8DEB01D51E020704005ACE97 /* Input.swift */,
 				8D105BE91E01A0F3007F4786 /* Fonts */,
 			);
 			name = Ressources;
@@ -187,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				8D105C2D1E01B12B007F4786 /* Button.swift */,
-				8DEB01D51E020704005ACE97 /* Input.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
