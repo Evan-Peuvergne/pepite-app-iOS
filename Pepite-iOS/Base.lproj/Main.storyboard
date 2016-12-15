@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -86,7 +86,7 @@ Pépite</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="filled" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="bZk-sb-EMo" kind="show" id="Est-aK-oQR"/>
+                                            <segue destination="bZk-sb-EMo" kind="showDetail" id="Est-aK-oQR"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -119,7 +119,7 @@ Pépite</string>
                                     <color key="titleColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oRa-wO-Trt" kind="show" id="1EJ-kj-IoR"/>
+                                    <segue destination="oRa-wO-Trt" kind="showDetail" id="1EJ-kj-IoR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -341,11 +341,11 @@ Pépite</string>
                                     <segue destination="oRa-wO-Trt" kind="show" action="showDetailViewController:sender:" id="9KC-0G-bSf"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dts-KL-ydj">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dts-KL-ydj">
                                 <rect key="frame" x="60" y="162" width="255" height="376"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="S'inscrire." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFb-QA-wj3">
-                                        <rect key="frame" x="10" y="30" width="235" height="56"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S'inscrire." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFb-QA-wj3">
+                                        <rect key="frame" x="10" y="23" width="235" height="56"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="6gL-3h-lXS"/>
                                         </constraints>
@@ -353,8 +353,8 @@ Pépite</string>
                                         <color key="textColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GE8-Ws-dcm" customClass="Input" customModule="Pepite_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="10" y="237" width="235" height="50"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GE8-Ws-dcm" customClass="Input" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="230" width="235" height="50"/>
                                         <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="dlj-Kt-Pm4"/>
@@ -363,8 +363,8 @@ Pépite</string>
                                         <fontDescription key="fontDescription" name="SanFranciscoDisplay-Semibold" family="San Francisco Display" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kGN-zx-Q9b" customClass="Input" customModule="Pepite_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="10" y="173" width="235" height="50"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kGN-zx-Q9b" customClass="Input" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="166" width="235" height="50"/>
                                         <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="CKt-BM-HPN"/>
@@ -373,8 +373,8 @@ Pépite</string>
                                         <fontDescription key="fontDescription" name="SanFranciscoDisplay-Semibold" family="San Francisco Display" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nom / Prénom" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QXx-PM-b4C" customClass="Input" customModule="Pepite_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="10" y="109" width="235" height="50"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nom / Prénom" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QXx-PM-b4C" customClass="Input" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="102" width="235" height="50"/>
                                         <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="235" id="XHs-pq-2WB"/>
@@ -384,14 +384,17 @@ Pépite</string>
                                         <fontDescription key="fontDescription" name="SanFranciscoDisplay-Semibold" family="San Francisco Display" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85i-iG-YG3" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="327" width="239" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85i-iG-YG3" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="320" width="239" height="40"/>
                                         <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="he1-TW-GJF"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="16"/>
                                         <state key="normal" title="S'inscrire"/>
+                                        <connections>
+                                            <segue destination="1DZ-Yy-2dV" kind="showDetail" id="Ui6-6v-067"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -402,7 +405,7 @@ Pépite</string>
                                     <constraint firstAttribute="width" constant="255" id="ESu-Rv-EMg"/>
                                     <constraint firstItem="QXx-PM-b4C" firstAttribute="leading" secondItem="dts-KL-ydj" secondAttribute="leading" constant="10" id="FbF-UJ-Ew9"/>
                                     <constraint firstAttribute="trailing" secondItem="uFb-QA-wj3" secondAttribute="trailing" constant="10" id="K20-ws-Foi"/>
-                                    <constraint firstItem="uFb-QA-wj3" firstAttribute="top" secondItem="dts-KL-ydj" secondAttribute="top" constant="40" id="Kwi-uI-tYu"/>
+                                    <constraint firstItem="uFb-QA-wj3" firstAttribute="top" secondItem="dts-KL-ydj" secondAttribute="top" constant="23" id="Kwi-uI-tYu"/>
                                     <constraint firstItem="kGN-zx-Q9b" firstAttribute="top" secondItem="QXx-PM-b4C" secondAttribute="bottom" constant="14" id="NQ9-vr-DAo"/>
                                     <constraint firstItem="85i-iG-YG3" firstAttribute="leading" secondItem="dts-KL-ydj" secondAttribute="leading" constant="8" id="V8D-Nn-PQU"/>
                                     <constraint firstItem="kGN-zx-Q9b" firstAttribute="leading" secondItem="dts-KL-ydj" secondAttribute="leading" constant="10" id="YCc-9H-tQ2"/>
@@ -421,7 +424,7 @@ Pépite</string>
                             <constraint firstItem="vUx-qP-XkG" firstAttribute="leading" secondItem="hyy-du-nWT" secondAttribute="leadingMargin" constant="54" id="JDu-SQ-Vsb"/>
                             <constraint firstItem="dUm-tm-6pw" firstAttribute="top" secondItem="vUx-qP-XkG" secondAttribute="bottom" constant="43" id="RKG-oW-sVj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vUx-qP-XkG" secondAttribute="trailing" constant="54" id="UiN-UT-8ld"/>
-                            <constraint firstItem="dts-KL-ydj" firstAttribute="centerY" secondItem="hyy-du-nWT" secondAttribute="centerY" id="oxm-W5-8fM"/>
+                            <constraint firstItem="dts-KL-ydj" firstAttribute="centerY" secondItem="hyy-du-nWT" secondAttribute="centerY" constant="16.5" id="oxm-W5-8fM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -429,9 +432,94 @@ Pépite</string>
             </objects>
             <point key="canvasLocation" x="1151" y="-306"/>
         </scene>
+        <!--ActivateNotificationsController-->
+        <scene sceneID="1Iu-4E-GL8">
+            <objects>
+                <viewController title="ActivateNotificationsController" id="1DZ-Yy-2dV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="syh-mt-4Rc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ku9-L3-51H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7S6-P6-aPc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGI-lS-PvW">
+                                <rect key="frame" x="60" y="170" width="255" height="321"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activer les notifications." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oH1-6d-0IG">
+                                        <rect key="frame" x="10" y="23" width="235" height="89"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="89" id="kDV-9w-i6N"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="30"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="En activant les notifications, vous pourrez être informé lorsqu'un évènement aura lieu près de vous." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kJs-aK-x5I">
+                                        <rect key="frame" x="7" y="126" width="241" height="105"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="105" id="0qR-e0-x71"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Regular" family="San Francisco Display" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYt-c7-u2o" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="242" width="110" height="40"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="9v8-0i-PIC"/>
+                                            <constraint firstAttribute="height" constant="40" id="Cxc-Hm-ORS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="16"/>
+                                        <state key="normal" title="Ignorer"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="white"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="filled" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Sc-bi-CVj" customClass="Button" customModule="Pepite_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="135" y="242" width="110" height="40"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="AWO-qo-wW6"/>
+                                            <constraint firstAttribute="height" constant="40" id="VlU-rg-WR7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="16"/>
+                                        <state key="normal" title="Activer"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="321" id="9vs-Y9-0BF"/>
+                                    <constraint firstItem="kJs-aK-x5I" firstAttribute="top" secondItem="oH1-6d-0IG" secondAttribute="bottom" constant="14" id="B3A-3F-vpO"/>
+                                    <constraint firstItem="kJs-aK-x5I" firstAttribute="leading" secondItem="eGI-lS-PvW" secondAttribute="leading" constant="7" id="DTp-XG-Fk7"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Sc-bi-CVj" secondAttribute="bottom" constant="39" id="Ft5-yp-GZ1"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Sc-bi-CVj" secondAttribute="trailing" constant="10" id="L0l-XO-Zd2"/>
+                                    <constraint firstAttribute="width" constant="255" id="Nih-dB-JSK"/>
+                                    <constraint firstItem="WYt-c7-u2o" firstAttribute="leading" secondItem="eGI-lS-PvW" secondAttribute="leading" constant="10" id="P6p-te-AN9"/>
+                                    <constraint firstAttribute="trailing" secondItem="kJs-aK-x5I" secondAttribute="trailing" constant="7" id="WKO-d8-z5F"/>
+                                    <constraint firstItem="oH1-6d-0IG" firstAttribute="top" secondItem="eGI-lS-PvW" secondAttribute="top" constant="23" id="YK3-wL-aJT"/>
+                                    <constraint firstAttribute="bottom" secondItem="WYt-c7-u2o" secondAttribute="bottom" constant="39" id="a4k-Nj-9av"/>
+                                    <constraint firstItem="oH1-6d-0IG" firstAttribute="leading" secondItem="eGI-lS-PvW" secondAttribute="leading" constant="10" id="kHU-ya-fbl"/>
+                                    <constraint firstAttribute="trailing" secondItem="oH1-6d-0IG" secondAttribute="trailing" constant="10" id="tQC-Mw-zeU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4549019608" green="0.78823529410000004" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eGI-lS-PvW" firstAttribute="centerY" secondItem="7S6-P6-aPc" secondAttribute="centerY" constant="-3" id="2V0-I8-GEY"/>
+                            <constraint firstItem="eGI-lS-PvW" firstAttribute="centerX" secondItem="7S6-P6-aPc" secondAttribute="centerX" id="mT8-F5-gRY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B0d-FB-vLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984.8" y="-306.29685157421289"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Est-aK-oQR"/>
         <segue reference="9KC-0G-bSf"/>
-        <segue reference="O0F-qu-CpH"/>
     </inferredMetricsTieBreakers>
 </document>
